@@ -1,0 +1,201 @@
+*{
+     margin :0%;
+     padding :0%;
+     boxing-size:border-box;
+     
+}
+
+
+
+
+
+.nerdy-pen{
+     height :8vh;
+     width :100%;
+     display :block;
+     display : flex;
+     align-item: center;
+     justify-content: center;
+     flex-direction:colum;
+    
+}
+
+
+
+
+.my-3{
+    display:flex;
+    align-item:center;
+    justify-content: center;
+}
+
+.mylogo{
+    
+    
+    border:4px solid red;
+}
+
+
+
+
+
+
+.languages{
+ 
+
+     
+     height :10vh;
+     width :100%;
+     font-family: 'Kanit', sans-serif;
+}
+
+
+.heading{
+    position: relative;
+}
+
+
+.heading:before{
+    content :"";
+    position : absolute;
+    height :3px;
+    width :26%;
+    left :0%;
+    top :110%;
+    border-bottom:4px solid #4458dc;
+    
+}
+
+.heading:after{
+    content :"";
+    position : absolute;
+    height :5px;
+    width :4%;
+    left :0%;
+    top :95%;
+    border-bottom:13px solid #4458dc;
+    border-radius:20px;
+    
+}
+
+
+.lab{
+     font-size:23px;
+     font-family:'Kanit', sans-serif;
+}
+
+.about{
+     position :relative;
+}
+
+.about:before{
+    content :"";
+    position : absolute;
+    height :3px;
+    width :19%;
+    left :0%;
+    top :110%;
+    border-bottom:4px solid #4458dc;
+    
+}
+.about:after{
+    content :"";
+    position : absolute;
+    height :5px;
+    width :4%;
+    left :0%;
+    top :95%;
+    border-bottom:13px solid #4458dc;
+    border-radius:20px;
+    
+}
+
+.svg{
+     height: 20%;
+     width: 25%;;
+     
+}
+
+.card:hover{
+     background-color: yellow;
+     border:2px solid red;
+}
+.card:hover p{
+     color:#4458dc;
+}
+
+
+.servic{
+     position :relative;
+}
+
+.servic:before{
+    content :"";
+    position : absolute;
+    height :3px;
+    width :38%;
+    left :0%;
+    top :110%;
+    border-bottom:4px solid #4458dc;
+    
+}
+.servic:after{
+    content :"";
+    position : absolute;
+    height :5px;
+    width :4%;
+    left :0%;
+    top :95%;
+    border-bottom:13px solid #4458dc;
+    border-radius:20px;
+    
+}
+
+
+
+.contact{
+     position :relative;
+}
+
+.contact:before{
+    content :"";
+    position : absolute;
+    height :3px;
+    width :35%;
+    left :0%;
+    top :110%;
+    border-bottom:4px solid #4458dc;
+    
+    
+}
+.contact:after{
+    content :"";
+    position : absolute;
+    height :5px;
+    width :4%;
+    left :0%;
+    top :95%;
+    border-bottom:13px solid #4458dc;
+    border-radius:20px;
+    
+}
+
+.foot{
+     height: 3vh;
+     width: 100%;
+     background-color: black ;
+     
+}
+
+.h{
+     font-size:13px;
+     color : white ;
+     display:flex;
+     align-item: center ;
+     justify-content: center ;
+    
+}
+.sp{
+     color:#4458dc;
+}
+                    
